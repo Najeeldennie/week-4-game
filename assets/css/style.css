@@ -1,0 +1,77 @@
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background: #333;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+#video-background {
+
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+div.header{
+	background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+  
+}
+div.gems{
+	
+  
+}
+div.header, {
+	width: 50%;
+}
+
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+
